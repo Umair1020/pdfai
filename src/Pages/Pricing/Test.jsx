@@ -27,8 +27,8 @@ const Test = () => {
     <div>
    
       {userCookie ? <SubHead /> : ""}
-      <div className="flex flex-col justify-center items-center pb-10 mt-4 ">
-      <br /> <br />    <br /> <br />    <br /> <br />
+      <div className="flex flex-col justify-center items-center  mt-4 ">
+   <br />  <br />  <br /> 
         <label className="sr-only" id="headlessui-label-:r2:" role="none">
           Payment frequency
         </label>

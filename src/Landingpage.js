@@ -276,7 +276,7 @@ const Landingpage = () => {
           <br />
           <br />
           <div className="section-header">
-            <h2 className="text-center" style={{ marginTop: "100px" }}>
+            <h2 className="text-center" style={{ marginTop: "50px" }}>
               Features
             </h2>
           </div>
@@ -347,7 +347,7 @@ const Landingpage = () => {
         <br />
         <div
           className="row video"
-          style={{ background: "#F7F7F7", padding: "20px", marginTo: "60px" }}
+          style={{ background: "#F7F7F7", padding: "20px", marginTop: "60px" }}
         >
           <div className="col-lg-12">
             <h2 className="text-center">How It Works</h2>
@@ -359,7 +359,7 @@ const Landingpage = () => {
         <section
           id="about"
           className="about section-bg "
-          style={{ marginTop: "150px" }}
+          style={{ marginTop: "70px" }}
         >
           <div className="row no-gutters  max-w-7xl px-6 pb-24 pt-10 sm:pb-32  lg:px-4 ">
             <div className="  content col-xl-5 d-flex align-items-stretch">
@@ -440,7 +440,7 @@ const Landingpage = () => {
         <section
           id="about"
           className="about section-bg "
-          style={{ marginTop: "150px" }}
+          style={{ marginTop: "70px" }}
         >
           <div className="row no-gutters  max-w-7xl px-6 pb-24 pt-10 sm:pb-32  lg:px-4 ">
             <div className="  content col-xl-5 d-flex align-items-stretch">
@@ -542,7 +542,7 @@ const Landingpage = () => {
             </div>
           </div>
         </section>
-        <div className="container rounded">
+        <div className="container rounded" style={{ marginTop: "70px" }}>
           {" "}
           <h3 className="tag">What Our Happy Client Say (Testimonials)</h3>{" "}
           <p className=" text-center head">
@@ -755,9 +755,8 @@ const Landingpage = () => {
               {faqData.map((item, index) => (
                 <div key={item.id} className="col-lg-6">
                   <div
-                    className={`question faq-item border border-solid border-gray-200 border-2 ${
-                      activeIndex === index ? "active" : ""
-                    }`}
+                    className={`question faq-item border border-solid border-gray-200 border-2 ${activeIndex === index ? "active" : ""
+                      }`}
                     onClick={() => handleAccordionClick(index)}
                   >
                     {item.question}
@@ -768,9 +767,8 @@ const Landingpage = () => {
                     )}
                   </div>
                   <div
-                    className={`collapse ${
-                      activeIndex === index ? "show faq-list" : ""
-                    }`}
+                    className={`collapse ${activeIndex === index ? "show faq-list" : ""
+                      }`}
                     id={item.id}
                     style={{
                       maxHeight: activeIndex === index ? "1000px" : "0",
@@ -800,7 +798,7 @@ const Landingpage = () => {
           </div>
         </div> */}
         <div
-          style={{ padding: "20px" }}
+          style={{ marginTop: "70px", padding: "20px" }}
           className="self-stretch bg-main-colors-white-1 flex flex-col items-start justify-start py-spacing-32 px-spacing-16 text-left text-base text-main-colors-white-2"
         >
           <div
@@ -854,6 +852,7 @@ const Landingpage = () => {
         </div>
         <br />
         <br />
+        <br /> <br />
         <Footer />
       </Mobile>
       <Desktop>
@@ -923,8 +922,8 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <br />
-          <br />
+     
+       
           <section id="counts" className="counts section-bg">
             <div className="container">
               <div className="row justify-content-center align-items-center">
@@ -984,7 +983,7 @@ const Landingpage = () => {
           </section>
         </div>{" "}
         <br />
-        <br />
+       
 
         <section
           id="technologies"
@@ -1040,8 +1039,8 @@ const Landingpage = () => {
             </div>
           </div>
         </section>
-        <br />
-        <br />
+      
+      
         <section id="services-list" className="services-list">
           <div className="container" data-aos="fade-up">
             <div className="section-header">
@@ -1113,7 +1112,7 @@ const Landingpage = () => {
             </div>
           </div>
         </section>{" "}
-        <br /> <br /> 
+    
         <div
           className="row video"
           style={{
@@ -1130,14 +1129,14 @@ const Landingpage = () => {
           </div>
         </div>
         <Test />
-       
+
         <section
           id="about"
           className="about section-bg "
           style={{
             background: "rgba(247, 247, 247, 1)",
             padding: "40px",
-            marginTop: "150px",
+            marginTop: "120px",
           }}
         >
           <div className="container " data-aos="fade-up">
@@ -1237,6 +1236,7 @@ const Landingpage = () => {
                       </p>
                     </div>
                   </div>
+                  <br /><br /><br />
                 </div>
               </div>
             </div>
@@ -1438,7 +1438,8 @@ const Landingpage = () => {
             </div>{" "}
           </div>{" "}
         </div>
-        <section id="faq" className="faq">
+        <section id="faq" className="faq" style={{    marginTop: "60px"
+}}>
           <div className="container lg:px-8 lg:py-20" data-aos="fade-up">
             <div className="section-title">
               <h2 className="text-center">FAQ’s</h2>
@@ -1447,9 +1448,8 @@ const Landingpage = () => {
               {faqData.map((item, index) => (
                 <div key={item.id} className="col-lg-6 ">
                   <div
-                    className={`question faq-item border border border-solid border-gray-200 border-2  ${
-                      activeIndex === index ? "active" : ""
-                    }`}
+                    className={`question faq-item border border border-solid border-gray-200 border-2  ${activeIndex === index ? "active" : ""
+                      }`}
                     onClick={() => handleAccordionClick(index)}
                   >
                     {item.question}
@@ -1461,9 +1461,8 @@ const Landingpage = () => {
                     )}
                   </div>
                   <div
-                    className={`collapse ${
-                      activeIndex === index ? "show faq-list" : ""
-                    }`}
+                    className={`collapse ${activeIndex === index ? "show faq-list" : ""
+                      }`}
                     id={item.id}
                     style={{
                       maxHeight: activeIndex === index ? "1000px" : "0",
@@ -1477,7 +1476,8 @@ const Landingpage = () => {
               ))}
             </div>
           </div>
-        </section>
+        </section> <br />
+        <br /> <br />
         <div
           style={{
             background: "#F7F7F7",
@@ -1523,6 +1523,7 @@ const Landingpage = () => {
             </div>
           </div>
         </div>
+        <br /> <br /> <br /> <br />
         <Footer />
       </Desktop>
     </div>

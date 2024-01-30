@@ -66,23 +66,19 @@ const Usecause = () => {
                   </div>
                   <div className="mt-8">
                     <h3 className="text-base text-center font-semibold leading-6 text-gray-900">
-                      <Link to="/tools" className="focus:outline-none">
+                     
                         <span className="absolute " aria-hidden="true"></span>
                         Scientific papers
-                      </Link>
+                      
                     </h3>
                     <p className="mt-2 text-center text-sm text-gray-500">
                       From legal agreements to financial reports, brings yo
                     </p>
-                    <Link
-                      to="/login"
-                      className="rounded-md mr-6  py-2.5 text-sm font-semibold text-dark  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 d-flex justify-content-center align-items-center"
-                    >
-                      <p className="mx-3" style={{ color: "#3843D0" }}>
-                        Learn More{" "}
-                      </p>{" "}
-                      <FaArrowRight className="arrow" />
-                    </Link>
+                 
+                    <p className="mx-3 d-flex align-items-center justify-content-center mt-3" style={{ color: "#3843D0" }}>
+                      Learn More{" "}
+                    <FaArrowRight className="arrow mx-2" />
+                    </p>{" "}
                   </div>
                 </div>
               </div>
@@ -156,24 +152,22 @@ const Usecause = () => {
                   </div>
                   <div className="mt-8">
                     <h3 className="text-base text-center font-semibold leading-6 text-gray-900">
-                      <Link to="/tools" className="focus:outline-none">
+                     
                         <span className="absolute " aria-hidden="true"></span>
                         Books
-                      </Link>
+                      
                     </h3>
                     <p className="mt-2 text-center text-sm text-gray-500">
                       From legal agreements to financial reports, brings yo
                     </p>
                   </div>
-                  <Link
-                    to="/login"
-                    className="rounded-md mr-6  py-2.5 text-sm font-semibold text-dark  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 d-flex justify-content-center align-items-center"
-                  >
-                    <p className="mx-3" style={{ color: "#3843D0" }}>
+                  
+                 
+                    <p className="mx-3 d-flex align-items-center justify-content-center mt-2" style={{ color: "#3843D0" }}>
                       Learn More{" "}
+                    <FaArrowRight className="arrow mx-2" />
                     </p>{" "}
-                    <FaArrowRight className="arrow" />
-                  </Link>
+                  
                 </div>
               </div>
 
@@ -200,23 +194,21 @@ const Usecause = () => {
                   </div>
                   <div className="mt-8">
                     <h3 className="text-base text-center font-semibold leading-6 text-gray-900">
-                      <Link to="/tools" className="focus:outline-none">
+                     
                         <span className="absolute " aria-hidden="true"></span>
                         Legal documents
-                      </Link>
+                      
                     </h3>
                     <p className="mt-2 text-center text-sm text-gray-500">
                       From legal agreements to financial reports, brings yo
                     </p>
-                    <Link
-                      to="/login"
-                      className="rounded-md mr-6  py-2.5 text-sm font-semibold text-dark  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 d-flex justify-content-center align-items-center"
-                    >
-                      <p className="mx-3" style={{ color: "#3843D0" }}>
-                        Learn More{" "}
-                      </p>{" "}
-                      <FaArrowRight className="arrow" />
-                    </Link>
+                    
+                 
+                    <p className="mx-3 d-flex align-items-center justify-content-center mt-2" style={{ color: "#3843D0" }}>
+                      Learn More{" "}
+                    <FaArrowRight className="arrow mx-2" />
+                    </p>{" "}
+                    
                   </div>
                 </div>
               </div>
@@ -244,23 +236,20 @@ const Usecause = () => {
                   </div>
                   <div className="mt-8">
                     <h3 className="text-base text-center font-semibold leading-6 text-gray-900">
-                      <Link to="/" className="focus:outline-none">
+                    
                         <span className="absolute " aria-hidden="true"></span>
                         Financial reports
-                      </Link>
+                      
                     </h3>
                     <p className="mt-2 text-center text-sm text-gray-500">
                       From legal agreements to financial reports, brings yo
                     </p>
-                    <Link
-                      to="/login"
-                      className="rounded-md mr-6  py-2.5 text-sm font-semibold text-dark  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 d-flex justify-content-center align-items-center"
-                    >
-                      <p className="mx-3" style={{ color: "#3843D0" }}>
-                        Learn More{" "}
-                      </p>{" "}
-                      <FaArrowRight className="arrow" />
-                    </Link>
+                    
+
+                    <p className="mx-3 d-flex align-items-center justify-content-center mt-2" style={{ color: "#3843D0" }}>
+                      Learn More{" "}
+                    <FaArrowRight className="arrow mx-2" />
+                    </p>{" "}
                   </div>
                 </div>
               </div>
